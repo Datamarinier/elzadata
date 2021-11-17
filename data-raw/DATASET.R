@@ -8,6 +8,7 @@ postcodes <- tribble(
                   "Schoten",       2900,    "ELZ Noord",      0, 34316,   "Schoten (2900)",
                   "Stabroek",      2940,    "ELZ Noord",      0, 18789,    "Stabroek (2940)",
                   "Wommelgem",     2160,    "ELZ Oost",       0, 12943,    "Wommelgem (2160)",
+                  "Borsbeek",      2150,    "ELZ ZORA",       0, 11077,    "Borsbeek (2150)",
                   "Antwerpen",     2000,    "ELZ Centrum",    1, 39382,    "Antwerpen Centrum (2000)",
                   "Antwerpen",     2018,    "ELZ Centrum",    1, 59258,    "Antwerpen Zuid (2018)",
                   "Antwerpen",     2020,    "ELZ Zuid",       1, 27720,    "Antwerpen Kiel (2020)",
@@ -21,8 +22,8 @@ postcodes <- tribble(
                   "Merksem",       2170,    "ELZ Noord",      1, 44936,    "Merksem (2170)",
                   "Wilrijk",       2610,    "ELZ Zuid",       1, 41773,    "Wilrijk (2610)",
                   "Berchem",       2600,    "ELZ Centrum",    1, 43370,    "Berchem (2600)",
-                  "Borgerhout",    2140,    "ELZ Oost",       1, 45906,    "Borgerhout (2140)",
-                  "Borsbeek",      2150,    "ELZ ZORA",       0, 11077,    "Borsbeek (2150)"
+                  "Borgerhout",    2140,    "ELZ Oost",       1, 45906,    "Borgerhout (2140)"
+
               )
 
 usethis::use_data(postcodes, overwrite = TRUE)
