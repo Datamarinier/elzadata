@@ -36,9 +36,8 @@ usethis::use_data(bev, overwrite = TRUE)
 
 age_conv <- tribble(
                     ~age, ~age_r,
-                    "j0_2", "0-5",
-                    "j3_5", "0-5",
-                    "j6_11", "6-11",
+                    "j0_4", "0-4",
+                    "j5_11", "5-11",
                     "j12_17_jaar", "12-17",
                     "j18_24_jaar", "18-64",
                     "j25_49_jaar", "18-64",
